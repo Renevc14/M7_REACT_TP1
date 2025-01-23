@@ -1,5 +1,5 @@
 import './App.css'
-import Default from './assets/components/Default.jsx'
+import Default from './components/Default.jsx'
 
 function App() {
 

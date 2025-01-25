@@ -7,7 +7,7 @@ const Github = () => {
                     <img src={githubLogo} className="logo" alt="Github logo" />
                     </a>
                     
-                </div>
+        </div>
     );
 }
 

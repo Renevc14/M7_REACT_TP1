@@ -1,4 +1,4 @@
-import githubLogo from '../../assets/Github.svg';
+import githubLogo from '../../assets/github.svg';
 
 
 const OpenLink = ({ redirectUrl, logoImage, altValue }) => {

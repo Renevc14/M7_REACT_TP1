@@ -4,7 +4,7 @@ import OpenLink from '../components/Core/OpenLink.jsx'
 
 import viteLogo from "../assets/vite.svg";
 import reactLogo from "../assets/react.svg";
-import githubLogo from '../assets/Github.svg';
+import githubLogo from '../assets/github.svg';
 
 
 const Home = () => {

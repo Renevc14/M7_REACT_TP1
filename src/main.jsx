@@ -9,7 +9,7 @@ import { BrowserRouter } from "react-router";
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Provider store={store}>
-      <BrowserRouter basename="/m7-react-tp1">
+      <BrowserRouter basename="/M7_REACT_TP1">
         <App />
       </BrowserRouter>
     </Provider>

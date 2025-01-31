@@ -1,14 +1,15 @@
 import githubLogo from '../../assets/Github.svg';
 
 
-const OpenLink = ({ redirectURL, logoImage }) => {
+const OpenLink = ({ redirectUrl, logoImage, altValue }) => {
     return (
         <>
-            <a href={redirectURL} target="_blank">
-            <img src={logoImage} className="logo" alt="Github logo" />
+            <a href={redirectUrl} target="_blank">
+                <img src={logoImage} className="logo" alt={`${altValue} logo`} />
             </a>
+
         </>
     );
-};
+}
 
 export default OpenLink;

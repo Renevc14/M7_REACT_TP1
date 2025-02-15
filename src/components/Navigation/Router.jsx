@@ -4,8 +4,10 @@ import Product from "../../screens/Product.jsx";
 import Think from "../../screens/Think.jsx";
 import Counter from "../Counter/Counter.jsx";
 import Login from "../../screens/Login.jsx";
-import { Routes, Route } from "react-router";
 import LandingPage from "../../screens/LandingPage.jsx";
+import DictionaryPage from "../../screens/DictionaryPage.jsx";
+import { Routes, Route } from "react-router";
+
 const Router = () => {
     return (
         <Routes>
@@ -15,6 +17,7 @@ const Router = () => {
             <Route path="think" element={<Think />} />
             <Route path="about" element={<About />} />
             <Route path="counter" element={<Counter />} />
+            <Route path="dictionary" element={<DictionaryPage />} />
         </Routes>
     )
 }

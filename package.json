@@ -2,6 +2,7 @@
   "name": "m7-react-tp1",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://Renevc14.github.io/M7_REACT_TP1/",
   "type": "module",
   "scripts": {
     "dev": "vite",

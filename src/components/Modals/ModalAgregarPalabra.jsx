@@ -3,7 +3,7 @@ import Modal from 'react-bootstrap/Modal';
 import {useState } from "react";
 import { useDispatch } from "react-redux";
 import { addPalabra } from "../../redux/dictionary/dictionaryActions.js";
-import '../../App.css';
+import '../../App.css'
 
 const ModalAgregarPalabra = ({ show, close}) => {
 

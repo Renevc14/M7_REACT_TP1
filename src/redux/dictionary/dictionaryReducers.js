@@ -1,5 +1,5 @@
-import { REMOVE_PALABRA, SET_DICTIONARY_DATA, ADD_PALABRA} from "./dictionaryTypes";
-import { CLEAR_DICTIONARY_DATA } from "./dictionaryTypes";
+import { REMOVE_PALABRA, SET_DICTIONARY_DATA, ADD_PALABRA} from "./dictionaryTypes.js";
+import { CLEAR_DICTIONARY_DATA } from "./dictionaryTypes.js";
 
 const initialState = {
     formData : {

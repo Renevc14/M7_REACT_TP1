@@ -5,7 +5,7 @@ import Think from "../../screens/Think.jsx";
 import Counter from "../Counter/Counter.jsx";
 import Login from "../../screens/Login.jsx";
 import LandingPage from "../../screens/LandingPage.jsx";
-import DictionaryPage from "../../screens/DictionaryPage.jsx";
+import Dictionary from "../../screens/Dictionary.jsx";
 import { Routes, Route } from "react-router";
 
 const Router = () => {
@@ -17,7 +17,7 @@ const Router = () => {
             <Route path="think" element={<Think />} />
             <Route path="about" element={<About />} />
             <Route path="counter" element={<Counter />} />
-            <Route path="dictionary" element={<DictionaryPage />} />
+            <Route path="dictionary" element={<Dictionary />} />
         </Routes>
     )
 }

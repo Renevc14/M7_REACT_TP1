@@ -1,7 +1,7 @@
-import { SET_DICTIONARY_DATA } from "./dictionaryTypes";
-import { CLEAR_DICTIONARY_DATA } from "./dictionaryTypes";
-import { REMOVE_PALABRA } from "./dictionaryTypes";
-import { ADD_PALABRA } from "./dictionaryTypes";
+import { SET_DICTIONARY_DATA } from "./dictionaryTypes.js";
+import { CLEAR_DICTIONARY_DATA } from "./dictionaryTypes.js";
+import { REMOVE_PALABRA } from "./dictionaryTypes.js";
+import { ADD_PALABRA } from "./dictionaryTypes.js";
 
 export const setDictionaryData = (dictionaryData) => ({
     type: SET_DICTIONARY_DATA,

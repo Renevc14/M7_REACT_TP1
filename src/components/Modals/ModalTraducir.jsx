@@ -9,7 +9,7 @@ const ModalTraducir = ({ show, close }) => {
     const [idioma, setIdioma] = React.useState('espanol');
     const [traduccion, setTraduccion] = React.useState('');
     const dispatch = useDispatch();
-    const palabras = useSelector(state => state.dictionary.formData.palabras);
+    const palabras = useSelector(state => state?.dictionary?.formData.palabras);
 
     const traducirPalabra = (texto, idioma) => {
         // Buscar la palabra en el array de palabras

@@ -3,6 +3,7 @@ import Modal from 'react-bootstrap/Modal';
 import {useState } from "react";
 import { useDispatch } from "react-redux";
 import { removePalabra } from "../../redux/dictionary/dictionaryActions.js";
+import '../../App.css'
 
 const ModalEliminarPalabra = ({ show, close}) => {
     

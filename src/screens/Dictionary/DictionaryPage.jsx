@@ -29,7 +29,7 @@ const DictionaryPage = () => {
 
     return (
         <div className="App-header">
-            <h1 className="text-3xl font-bold text-center mb-4">MODULO 7 - REACT</h1>
+            <h1 className="text-3xl font-bold text-center mb-4">DICTIONARY USIP</h1>
             <ModalAgregarPalabra
                 show={showModalAgregarPalabra}
                 close={handleCloseAgregarPalabra}
@@ -43,10 +43,7 @@ const DictionaryPage = () => {
                 close={handleCloseTraducir}
             />
             <p>
-                Esta aplicación es un diccionario que permite agregar, eliminar y traducir palabras en tres idiomas.
-            </p>
-            <p>
-                Corresponde al ejercicio recuperatorio.
+                Este modulo (diccionario) correpsonde al recuperatorio del modulo 7 de React.
             </p>
             <p>
                 URL: <a href="https://github.com/Renevc14/M7_REACT_TP1">https://github.com/Renevc14/M7_REACT_TP1</a>
